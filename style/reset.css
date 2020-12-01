@@ -40,7 +40,9 @@ body {
 ol, ul {
 	list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -49,6 +51,9 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
+}
+button{
+    border: none;
 }
 
 table {
